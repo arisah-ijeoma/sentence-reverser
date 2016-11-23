@@ -1,6 +1,6 @@
 class ReverseMySentence
-  def reverser(sentence)
-    words = sentence.split(/\b/)
+  def reverser(string)
+    words = string.split(/\b/)
     length = words.length
 
     i = 0
